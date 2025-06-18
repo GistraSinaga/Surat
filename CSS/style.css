@@ -19,16 +19,19 @@
     }
 
     #awal{
-        
-      margin-top: 170px;
-        height: 200px;
-        width: fit-content;
+      
+        justify-self: center;
+      margin-top: 300px;
+        height: 100vh;
+        width: 90%;
+        max-width: 400px;
         padding:2rem;
            
     }
 
     #awal>h2{
       color: rgba(224, 250, 194, 0.993);
+      font-size: 7rem;
     }
     
     #awal>h4{
@@ -38,12 +41,16 @@
     }
 
     #awal>input{
+      width: 80%;
+      padding :12px;
       border-radius: 6px;
-      width: 13rem;
-      height: 17px;
+      
+      height: 3rem;
     }
 
     #awal>button{
+      width: 60%;
+      padding: 15px;
       border-radius: 6px;
       height: 3rem;
     }
