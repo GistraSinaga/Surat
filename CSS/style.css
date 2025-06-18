@@ -1,0 +1,53 @@
+  body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      
+      background-image:url(../img/IMG-20250411-WA0057.jpg);
+      background-size: cover;
+     
+    }
+    #surat {
+      display: none;
+      background-color: rgba(255, 253, 253, 0.753);
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .error {
+      color: red;
+      display: none;
+    }
+
+    #awal{
+        
+      margin-top: 170px;
+        height: 200px;
+        width: fit-content;
+        padding:2rem;
+           
+    }
+
+    #awal>h2{
+      color: rgba(224, 250, 194, 0.993);
+    }
+    
+    #awal>h4{
+      font-style: italic;
+      color: rgba(150, 6, 18, 0.671);
+     
+    }
+
+    #awal>input{
+      border-radius: 6px;
+      width: 13rem;
+      height: 17px;
+    }
+
+    #awal>button{
+      border-radius: 6px;
+      height: 3rem;
+    }
+
+    #awal>button:hover{
+      background-color: antiquewhite;
+    }
